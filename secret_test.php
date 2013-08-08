@@ -99,5 +99,5 @@ $primes = getPrimesUpToLimit($limit);
 if ($primes && isSecretAdditive($primes)) {
     echo "The secret function is additive with prime numbers under {$limit}.\n";
 } else {
-    echo "The secret() is not additive with prime numbers under {$limit}.\n";
+    echo "The secret function is not additive with prime numbers under {$limit}.\n";
 }

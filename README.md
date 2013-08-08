@@ -12,14 +12,23 @@ This script does the following:
 How to Run
 ==========
 
-In your environment, change into the root directory of the project.
+In your environment, ensure you have PHP installed.
+
+Change into the root directory of the project and run the following:
 
 ```bash
 php secret_test.php 10
 ```
 
-This should result in:
+If the secret function **is** additive, the script will output:
 
 ```bash
 The secret function is additive with prime numbers under 10.
 ```
+
+If the secret function **is not** additive, the script will output:
+
+```bash
+The secret function is not additive with prime numbers under 10.
+```
+
